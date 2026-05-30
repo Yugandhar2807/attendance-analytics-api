@@ -1,0 +1,107 @@
+# =============================================================================
+# .gitignore — .NET / ASP.NET Core projects
+# Drop this in the repo root, rename to ".gitignore"
+# =============================================================================
+
+# Build output
+bin/
+obj/
+out/
+[Dd]ebug/
+[Rr]elease/
+[Dd]ebug[Pp]ublic/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.rsuser
+
+# Rider / VS Code
+.idea/
+.vscode/
+*.swp
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+coverage*.cobertura.xml
+coverage*.json
+coverage*.info
+*.coverage
+*.coveragexml
+*.opencover.xml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ASP.NET / publish
+PublishProfiles/
+*.PublishSettings
+publish/
+*_Publish.xml
+PublishScripts/
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.bacpac
+*.dacpac
+[Ll]ocalDb/
+*.[Ll]og
+
+# EF Core
+**/Migrations/Backup/
+
+# User secrets / config
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+*.user.config
+*.dev.config
+.env
+.env.*
+!.env.example
+
+# Certificates / keys — NEVER COMMIT
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+*.cer
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*~
+
+# Project-specific
+docs/img/_drafts/
+tools/local-only/
